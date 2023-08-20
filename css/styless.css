@@ -6,6 +6,10 @@ a {
 	color:blueviolet;
 }
 
-button {
+button: is(:hover, :focus) {
 	background-color: teal;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	outline-offset: 3px;
 }
