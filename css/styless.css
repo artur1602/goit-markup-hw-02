@@ -16,3 +16,7 @@ button {
 .button: is(:hover, :focus) {
 	outline-offset: 3px;
 }
+
+.Web {
+	color:white;
+}
