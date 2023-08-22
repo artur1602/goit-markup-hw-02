@@ -71,8 +71,8 @@ p {
 
 
 
-.studio:hover
-.studio:focus {
+.header-nav:hover
+.header-nav:focus {
 	color:  #404bbf;
 }
 
@@ -86,12 +86,13 @@ p {
 
 .adress {
 	font-style: normal;
-}
-
-.list-adress {
-	list-style: none;
 	letter-spacing: 0.02em;
 	color: #434455;
+	list-style: none;
+}
+
+.adress {
+	list-style: none;
 }
 
 .mailto {
