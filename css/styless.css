@@ -478,13 +478,14 @@ text-decoration: none;
 	line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-	background: #2E2F42;
+	background-color: #2E2F42;
 	color: #2e2f42;
 }
 
 .banking-app-h {
 	width: 290px;
 }
+
 .banking-app-p, cashless-p, meditation-p, taxi-p, screen-p, courses-p, instagram-p, organic-p, coffee-p {
 	height: 24px;
 	font-size: 16px;
