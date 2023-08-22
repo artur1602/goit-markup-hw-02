@@ -95,7 +95,7 @@ p {
 	list-style: none;
 }
 
-.mailto {
+.mailto, tel {
 	width: 153px;
 	height: 24px;
 	top: 24px;
@@ -105,10 +105,7 @@ p {
 
 .tel {
 	width: 151px;
-	height: 24px;
-	top: 24px;
 	left: 1133px;
-	text-decoration: none;
 }
 
 .mailto, tel:hover
@@ -132,7 +129,7 @@ p {
 	color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 	
@@ -148,12 +145,20 @@ p {
 	gap: 10px;
 	background: #4D5AE5;
 	box-shadow: 0px 4px 4px 0px #00000026;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+
 }
 
 .order-service:hover
 .order-service:focus {
 	outline-offset: 10px;
-	background-color: #00000026;
+	background-color: #404BBF;
 }
 
 .descriptions {
