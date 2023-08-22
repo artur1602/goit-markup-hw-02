@@ -1,4 +1,4 @@
-body{
+:root{
   font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -9,13 +9,43 @@ body{
 	color: #434455;
 }
 
+.body-portfolio {
+  font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	background-color: #F4F4FD;
+	color: #4d5ae5;
+}
+p {
+  color: var(--primary-color);
+  font-family: var(--body-fonts);
+  line-height: var(-line-height);
+}
 
-
-.logo, logo-f {
+.logo {
 	width: 115px;
 	height: 24px;
 	top: 24px;
 	left: 156px;
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:  #4d5ae5;
+	text-decoration: none;
+}
+
+.logo-n-icon {
+	color: #f4f4fd;
+}
+
+.list-nav {
+
 }
 
 .nav-menu {
@@ -31,6 +61,18 @@ body{
 	width: 48px
 	height: 24px
 	color: #2E2F42;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.link-studio {
+	text-decoration: none;
+}
+
+.link-studio:hover
+.link-studio:focus {
+	color:  #404bbf;
 }
 
 .portfolio {
@@ -41,11 +83,22 @@ body{
 
 }
 
+.adress {
+	font-style: normal;
+}
+
+.list-adress {
+	list-style: none;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
 .mailto {
 	width: 153px;
 	height: 24px;
 	top: 24px;
 	left: 940px;
+	text-decoration: none;
 }
 
 .tel {
@@ -53,6 +106,12 @@ body{
 	height: 24px;
 	top: 24px;
 	left: 1133px;
+	text-decoration: none;
+}
+
+.mailto, tel:hover
+.mailto, tel:focus {
+	color:   #404bbf;
 }
 
 .hero-images {
@@ -321,7 +380,18 @@ body{
 	height: 48px;
 	padding: 12px 24px 12px 24px;
 	border-radius: 4px;
+	cursor: pointer;
 }
+
+
+.btn-all, btn-web, btn-app, btn-design:hover
+.btn-all, btn-web, btn-app, btn-design:focus {
+	color: #FFFFFF;
+	background-color: #404BBF;
+}
+
+
+
 
 .btn-all {
 	width: 116px;
@@ -356,6 +426,12 @@ body{
 	width: 126px;
 }
 
+.link-image {
+	list-style: none;
+
+}
+
+
 .finger, taxi-screen-courses, instagram-organic-coffee {
 	width: 1128px;
 	height: 420px;
@@ -372,7 +448,7 @@ body{
 }
 
 .banking-app {
-
+text-decoration: none;
 }
 
 .banking-app-h, cashless-h, meditation-h, taxi-h, screen-h, courses-h, instagram-h, organic-h, coffee-h {
@@ -380,9 +456,11 @@ body{
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+	line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 	background: #2E2F42;
+	color: #2e2f42;
 }
 
 .banking-app-h {
@@ -390,7 +468,10 @@ body{
 }
 .banking-app-p, cashless-p, meditation-p, taxi-p, screen-p, courses-p, instagram-p, organic-p, coffee-p {
 	height: 24px;
-	
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
 
 .banking-app-p {
@@ -399,7 +480,7 @@ body{
 }
 
 .cashless {
-
+	text-decoration: none;
 }
 
 .cashless-h {
@@ -413,7 +494,7 @@ body{
 }
 
 .meditation {
-
+	text-decoration: none;
 }
 
 
@@ -428,17 +509,8 @@ body{
 
 }
 
-.taxi-screen-courses {
-	top: 1224px;
-
-}
-
-.taxi-screen-courses-u {
-
-}
-
 .taxi {
-
+	text-decoration: none;
 }
 
 
@@ -452,7 +524,7 @@ body{
 }
 
 .screen {
-
+	text-decoration: none;
 }
 
 
@@ -467,7 +539,7 @@ width: 181px;
 }
 
 .courses {
-
+	text-decoration: none;
 }
 
 .courses-h {
@@ -480,16 +552,9 @@ width: 181px;
 
 }
 
-.instagram-organic-coffee {
-
-}
-
-.instagram-organic-coffee-u {
-
-}
 
 .instagram {
-
+	text-decoration: none;
 }
 
 .instagram-h {
@@ -502,7 +567,7 @@ width: 181px;
 }
 
 .organic {
-
+	text-decoration: none;
 }
 
 .organic-h {
@@ -516,7 +581,7 @@ width: 181px;
 }
 
 .coffee {
-
+	text-decoration: none;
 }
 
 .coffee-h {
@@ -533,12 +598,30 @@ width: 181px;
 	width: 1440px;
 	height: 312px;
 	top: 2280px;
+	background-color:  #2e2f42;
 }
 
-.logo-f-p {
+.logo-f {
 	width: 264px;
 	height: 112px;
 	top: 2380px;
 	left: 156px;
   text-align: left;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:  #4d5ae5;
+	text-decoration: none;
+}
+
+.logo-icon {
+	color: #f4f4fd;
+}
+
+.logo-f-p {
+	color: #f4f4fd;
+	letter-spacing: 0.02em;
 }
