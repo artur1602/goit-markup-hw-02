@@ -25,7 +25,7 @@ p {
   line-height: var(-line-height);
 }
 
-.logo-link {
+.header-logo {
 	width: 115px;
 	height: 24px;
 	top: 24px;
@@ -57,7 +57,7 @@ p {
 
 }
 
-.studio, portfolio, contacts {
+.header-nav {
 	width: 48px;
 	height: 24px;
 	font-weight: 500;
