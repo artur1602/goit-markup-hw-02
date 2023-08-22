@@ -1,121 +1,544 @@
-
-a {
-	color:blueviolet;
+body{
+  font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 2%;
+	background-color: #FFFFFF;
+	color: #434455;
 }
 
-button {
-	background-color: blue;
-	color: white;
-	border-radius: 10px;
-	cursor: pointer;
+
+
+.logo, logo-f {
+	width: 115px;
+	height: 24px;
+	top: 24px;
+	left: 156px;
 }
 
-.button: is(:hover, :focus) {
-	outline-offset: 3px;
+.nav-menu {
+	width: 261px;
+  height: 24px;
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+
+}
+
+.studio, portfolio, contacts {
+	width: 48px
+	height: 24px
+	color: #2E2F42;
+}
+
+.portfolio {
+
+}
+
+.contacts {
+
+}
+
+.mailto {
+	width: 153px;
+	height: 24px;
+	top: 24px;
+	left: 940px;
+}
+
+.tel {
+	width: 151px;
+	height: 24px;
+	top: 24px;
+	left: 1133px;
+}
+
+.hero-images {
+	width: 1440px;
+	height: 600px;
+	top: 72px;
+	background-color: #2E2F42;
+	
 }
 
 .effective {
-	width: 1440px
-  height: 600px
-  top: 72px
-	background-color:#2E2F42;
+	width: 496px;
+	height: 120px;
+	top: 260px;
+	left: 472px;
+	color: #FFFFFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+	
 }
 
-.footer{
-	background-color:#2E2F42;
-} 
+.order-service {
+	width: 169px;
+	height: 56p;
+	top: 428px;
+	left: 636px;
+	padding: 16px 32px 16px 32px;
+	border-radius: 4px;
+	gap: 10px;
+	background: #4D5AE5;
+	box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.order-service:hover
+.order-service:focus {
+	outline-offset: 10px;
+	background-color: #00000026;
+}
+
+.descriptions {
+	width: 1128px
+	height: 104px
+	top: 792px
+	left: 156px
+}
+
+.strategy, punctuality, diligence, technologies {
+	width: 264px;
+	height: 104px;
+	top: 792px;
+	gap: 8px;
+}
+
+.strategy {
+	left: 156px;
+}
+
+.strategy-h, punctuality-h, diligence-h, technologies-h {
+	width: 264px
+	height: 24px
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+	color: #2E2F42;
+
+}
+
+.strategy-h-p, punctuality-h-p, diligence-h-p, technologies-h-p {
+	width: 264px;
+	height: 72px;
+}
+
+.punctuality {
+	left: 444px;
+}
+
+.punctuality-h {
+
+}
+
+.punctuality-h-p {
+
+}
+
+.diligence {
+	left: 732px;
+}
+
+.diligence-h {
+
+}
+
+.diligence-h-p {
+
+}
+
+.technologies {
+	left: 1020px;
+}
+
+.technologies-h {
+
+}
+
+.technologies-h-p {
+
+}
+
+.what {
+	width: 1128px;
+	height: 412px;
+	top: 1016px;
+	left: 156px;
+	
+}
+
+.what-h {
+	width: 323px;
+	height: 40px;
+	top: 1016px;
+	left: 559px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+	
+}
+
+.what-h-u {
+
+}
+
+.monitor, message, phone {
+	width: 360px;
+	height: 300px;
+	top: 1128px;
+  border: 1px;
+	color: #E7E9FC;
+}
+
+.monitor {
+	left: 156px;
+}
+.message {
+	left: 540px;
+}
+
+.phone {
+	left: 924px;
+}
+
+.team {
+	width: 1440px;
+	height: 732px;
+	top: 1548px;
+	background: #F4F4FD;	
+}
+
+.team-h {
+	width: 162px;	
+	height: 40px;	
+	top: 1668px;	
+	left: 639px;	
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+	background: #2E2F42;
+}
+
+.mark, tom, camila, daniel {
+	width: 264px;
+	height: 380px;
+	top: 1780px;
+	left: 156px;
+	padding: 0px 0px 32px 0px;
+	border-radius: 0px 0px 4px 4px;
+	gap: 32px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 1px 0px #2E2F4214;
+	box-shadow: 0px 1px 1px 0px #2E2F4229;
+	box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+
+.mark-h, tom-h, camila-h, daniel-h {
+	width: 134px;
+	height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+	background: #2E2F42;
+}
+
+.mark-p, tom-p, camila-p, daniel-p {
+	width: 128px;
+	height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+	background: #434455;
+
+}
+
+.tom {
+
+}
+
+.tom-h {
+
+}
+
+.tom-p {
+
+}
+
+.camila {
+
+}
+
+.camila-h {
+
+}
+
+.camila-p {
+
+}
+
+.daniel {
+
+}
+
+.daniel-h {
+
+}
+
+.daniel-p {
+
+}
+
+.s-link {
+	width: 586px;
+	height: 48px;
+	top: 168px;
+	left: 427px;
+	gap: 24px;
+	
+}
+
+.s-link-u {
+
+}
+
+.btn-all, btn-web, btn-app, btn-design {
+	height: 48px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 4px;
+}
+
+.btn-all {
+	width: 116px;
+	background: #404BBF;
+	box-shadow: 0px 2px 2px 0px #0000001F;
+	box-shadow: 0px 2px 1px 0px #00000014;
+	box-shadow: 0px 3px 1px 0px #0000001A;
+	background: #FFFFFF;
+}
+
+.btn-web, {
+	width: 116px;
+}
+
+.btn-web, btn-app, btn-design {
+	background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
+	linear-gradient(0deg, #E7E9FC, #E7E9FC);
+	border: 1px solid #E7E9FC;	
+}
+
+.btn-app {
+	width: 78px;
+
+}
+
+.btn-design {
+	width: 101px;
+
+}
+
+.btn-marketing {
+	width: 126px;
+}
+
+.finger, taxi-screen-courses, instagram-organic-coffee {
+	width: 1128px;
+	height: 420px;
+	left: 156px;
+	border: 1px;
+	
+}
+
+.finger {
+	top: 288px;
+}
+.finger-u {
+
+}
+
+.banking-app {
+
+}
+
+.banking-app-h, cashless-h, meditation-h, taxi-h, screen-h, courses-h, instagram-h, organic-h, coffee-h {
+	height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+	background: #2E2F42;
+}
+
+.banking-app-h {
+	width: 290px;
+}
+.banking-app-p, cashless-p, meditation-p, taxi-p, screen-p, courses-p, instagram-p, organic-p, coffee-p {
+	height: 24px;
+	
+}
+
+.banking-app-p {
+	width: 30px;
+
+}
+
+.cashless {
+
+}
+
+.cashless-h {
+	width: 172px;
+
+}
+
+.cashless-p {
+	width: 75px;
+
+}
+
+.meditation {
+
+}
 
 
+.meditation-h {
+	width: 143px;
+
+}
 
 
+.meditation-p {
+	width: 30px;
 
-/* hero image */
+}
 
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
+.taxi-screen-courses {
+	top: 1224px;
 
+}
 
+.taxi-screen-courses-u {
 
-/* Dark-bg */
+}
 
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
+.taxi {
 
-/* NAVY BLUE */
-background: #2E2F42;
+}
 
 
-/* Button */
+.taxi-h {
+	width: 113px;
+}
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
+.taxi-p {
+	width: 75px;
 
-position: absolute;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;
+}
 
-/* IRIS */
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+.screen {
+
+}
 
 
-/* Order Service */
+.screen-h {
+width: 181px;
 
-width: 105px;
-height: 24px;
+}
 
-/* Button Text */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
+.screen-p {
+	width: 51px;
 
-/* WHITE */
-color: #FFFFFF;
+}
 
+.courses {
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+}
+
+.courses-h {
+	width: 142px;
+}
 
 
-/* Effective Solutions for Your Business */
+.courses-p {
+	width: 75px;
 
-position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 260px;
+}
 
-/* Header 1 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-/* or 107% */
-text-align: center;
-letter-spacing: 0.02em;
+.instagram-organic-coffee {
 
-/* WHITE */
-color: #FFFFFF;
+}
 
+.instagram-organic-coffee-u {
+
+}
+
+.instagram {
+
+}
+
+.instagram-h {
+	width: 249px;
+}
+
+.instagram-p {
+	width: 51px;
+
+}
+
+.organic {
+
+}
+
+.organic-h {
+	width: 124px;
+}
+
+
+.organic-p {
+	width: 65px;
+
+}
+
+.coffee {
+
+}
+
+.coffee-h {
+	width: 119px;
+}
+
+. coffee-p {
+	width: 65px;
+
+}
+
+
+.foot {
+	width: 1440px;
+	height: 312px;
+	top: 2280px;
+}
+
+.logo-f-p {
+	width: 264px;
+	height: 112px;
+	top: 2380px;
+	left: 156px;
+  text-align: left;
+}
