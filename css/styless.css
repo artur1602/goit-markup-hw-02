@@ -71,8 +71,8 @@ p {
 
 
 
-.header-logo:hover
-.header-logo:focus {
+.header-nav-item:hover
+.header-nav-item:focus {
 	color:  #404bbf;
 }
 
