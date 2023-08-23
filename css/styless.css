@@ -165,6 +165,8 @@ p {
 	height: 104px;
 	top: 792px;
 	left: 156px;
+	background-color: #404BBF;
+	font-weight: 500;
 }
 
 .descriptions-h {
@@ -259,6 +261,7 @@ p {
   text-align: center;
 	line-height: 1.11;
 	text-transform: capitalize;
+	color: #2e2f42;
 }
 
 .monitor, message, phone {
