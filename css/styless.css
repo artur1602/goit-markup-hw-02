@@ -76,7 +76,7 @@ body {
 	text-decoration: none;
 }
 
-.header-nav-link:hover
+.header-nav-link:hover,
 .header-nav-link:focus {
 	color:  #404bbf;
 }
@@ -297,7 +297,7 @@ body {
 	color: #4d5ae5;
 }
 
-.btn:hover
+.btn:hover,
 .btn:focus {
 	color: #FFFFFF;
 	background-color: #404BBF;
