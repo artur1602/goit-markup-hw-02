@@ -23,11 +23,7 @@ body {
 	background-color: #F4F4FD;
 	color: var(--color);
 }
-.p {
-  color: var(--primary-color);
-  font-family: var(--body-fonts);
-  line-height: var(-line-height);
-}
+
 
 .header-logo {
 	width: 115px;
@@ -52,13 +48,6 @@ body {
 	list-style: none;
 }
 
-.nav-menu {
-	width: 261px;
-  height: 24px;
-  top: 24px;
-  left: 347px;
-  gap: 40px;
-}
 
 .header-nav {
 	width: 48px;
@@ -97,18 +86,10 @@ body {
 }
 
 .mailto, tel {
-	width: 153px;
-	height: 24px;
-	top: 24px;
-	left: 940px;
 	color: #434455;
 	text-decoration: none;
 }
 
-.tel {
-	width: 151px;
-	left: 1133px;
-}
 
 .mailto, tel:hover,
 .mailto, tel:focus {
@@ -116,17 +97,10 @@ body {
 }
 
 .hero-images {
-	width: 1440px;
-	height: 600px;
-	top: 72px;
 	background-color: #2E2F42;
 }
 
 .effective {
-	width: 496px;
-	height: 120px;
-	top: 260px;
-	left: 472px;
 	color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
@@ -136,15 +110,7 @@ body {
 }
 
 .order {
-	width: 169px;
-	height: 56p;
-	top: 428px;
-	left: 636px;
-	padding: 16px 32px 16px 32px;
-	border-radius: 4px;
-	gap: 10px;
 	background-color: #4D5AE5;
-	box-shadow: 0px 4px 4px 0px #00000026;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
@@ -161,10 +127,6 @@ body {
 
 
 .descriptions {
-	width: 1128px;
-	height: 104px;
-	top: 792px;
-	left: 156px;
 	background-color: #404BBF;
 	font-weight: 500;
 }
@@ -182,18 +144,10 @@ body {
 }
 
 .what {
-	width: 1128px;
-	height: 412px;
-	top: 1016px;
-	left: 156px;
 	background-color: #F4F4FD;
 }
 
 .what-h {
-	width: 323px;
-	height: 40px;
-	top: 1016px;
-	left: 559px;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -205,27 +159,16 @@ body {
 }
 
 .monitor, message, phone {
-	width: 360px;
-	height: 300px;
-	top: 1128px;
-  border: 1px;
 	color: #E7E9FC;
 	background-color: #FFFFFF;
 }
 
 
 .team {
-	width: 1440px;
-	height: 732px;
-	top: 1548px;
 	background-color: #F4F4FD;
 }
 
-.team-h {
-	width: 162px;	
-	height: 40px;	
-	top: 1668px;	
-	left: 639px;	
+.team-h {	
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -242,23 +185,10 @@ body {
 }
 
 .name-list  {
-	width: 264px;
-	height: 380px;
-	top: 1780px;
-	left: 156px;
-	padding: 0px 0px 32px 0px;
-	border-radius: 0px 0px 4px 4px;
-	gap: 32px;
-	background: #FFFFFF;
-	box-shadow: 0px 2px 1px 0px #2E2F4214;
-	box-shadow: 0px 1px 1px 0px #2E2F4229;
-	box-shadow: 0px 1px 6px 0px #2E2F4214;
 	background-color: #FFFFFF;
 }
 
 .name-h {
-	width: 134px;
-	height: 24px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -270,8 +200,6 @@ body {
 }
 
 .proffesion {
-	width: 128px;
-	height: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -280,20 +208,8 @@ body {
 	color: var(--color);
 }
 
-.s-list {
-	width: 586px;
-	height: 48px;
-	top: 168px;
-	left: 427px;
-	gap: 24px;
-
-}
-
 
 .btn {
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
 	cursor: pointer;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -332,17 +248,10 @@ body {
 
 
 .foot {
-	width: 1440px;
-	height: 312px;
-	top: 2280px;
 	background-color:  #2e2f42;
 }
 
 .logo-f {
-	width: 264px;
-	height: 112px;
-	top: 2380px;
-	left: 156px;
   text-align: left;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
