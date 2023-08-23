@@ -283,7 +283,6 @@ p {
 	height: 732px;
 	top: 1548px;
 	background-color: #F4F4FD;
-
 }
 
 .team-h {
@@ -337,6 +336,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
 	background: #434455;
+	color: #2e2f42;
 }
 
 .tom {
