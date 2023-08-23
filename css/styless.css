@@ -85,11 +85,11 @@ body {
 	font-style: normal;
 	letter-spacing: 0.02em;
 	list-style: none;
+	color: #434455;
 }
 
 .adress {
 	list-style: none;
-	color: #434455;
 }
 
 .mailto, tel {
