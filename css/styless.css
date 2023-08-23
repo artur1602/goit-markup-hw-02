@@ -41,7 +41,7 @@ body {
 }
 
 .logo-n-icon {
-	color: #f4f4fd;
+	color: #2e2f42;
 }
 
 .list-nav {
@@ -68,8 +68,8 @@ body {
 }
 
 
-.header-nav-item:hover
-.header-nav-item:focus {
+.header-logo:hover
+.header-logo:focus {
 	color:  #404bbf;
 }
 
