@@ -458,26 +458,11 @@ p {
 }
 
 
-.finger, taxi-screen-courses, instagram-organic-coffee {
-	width: 1128px;
-	height: 420px;
-	left: 156px;
-	border: 1px;
-	
-}
-
-.finger {
-	top: 288px;
-}
-.finger-u {
-
-}
-
 .banking-app {
 text-decoration: none;
 }
 
-.banking-app-h, cashless-h, meditation-h, taxi-h, screen-h, courses-h, instagram-h, organic-h, coffee-h {
+.text {
 	height: 24px;
   font-size: 20px;
   font-weight: 500;
@@ -493,7 +478,7 @@ text-decoration: none;
 	width: 290px;
 }
 
-.banking-app-p, cashless-p, meditation-p, taxi-p, screen-p, courses-p, instagram-p, organic-p, coffee-p {
+.textP {
 	height: 24px;
 	font-size: 16px;
 	line-height: 1.5;
