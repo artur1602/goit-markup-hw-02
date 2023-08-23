@@ -1,4 +1,4 @@
-:root{
+body {
   font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -19,7 +19,7 @@
 	background-color: #F4F4FD;
 	color: #434455;
 }
-p {
+.p {
   color: var(--primary-color);
   font-family: var(--body-fonts);
   line-height: var(-line-height);
@@ -54,7 +54,6 @@ p {
   top: 24px;
   left: 347px;
   gap: 40px;
-
 }
 
 .header-nav {
@@ -63,25 +62,15 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.02em;
 	font-size: 16px;
-	line-height: 1.5
+	line-height: 1.5;
 	color:#2e2f42;
 	text-decoration: none;
 }
 
 
-
-
 .header-nav-item:hover
 .header-nav-item:focus {
 	color:  #404bbf;
-}
-
-.portfolio {
-
-}
-
-.contacts {
-
 }
 
 .adress {
@@ -110,7 +99,7 @@ p {
 
 .mailto, tel:hover
 .mailto, tel:focus {
-	color:   #404bbf;
+	color: #404bbf;
 }
 
 .hero-images {
@@ -118,7 +107,6 @@ p {
 	height: 600px;
 	top: 72px;
 	background-color: #2E2F42;
-	
 }
 
 .effective {
@@ -132,7 +120,6 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-	
 }
 
 .order {
@@ -181,65 +168,6 @@ p {
 	gap: 8px;
 }
 
-.strategy {
-	left: 156px;
-}
-
-.descriptions-h,  {
-	width: 264px;
-	height: 24px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-	color: #2E2F42;
-	line-height: 1.2;
-}
-
-.descriptions-p {
-	width: 264px;
-	height: 72px;
-	letter-spacing: 0.02em;
-	font-size: 16px;
-	line-height: 1.5;	
-}
-
-.punctuality {
-	left: 444px;
-}
-
-.punctuality-h {
-
-}
-
-.punctuality-h-p {
-
-}
-
-.diligence {
-	left: 732px;
-}
-
-.diligence-h {
-
-}
-
-.diligence-h-p {
-
-}
-
-.technologies {
-	left: 1020px;
-}
-
-.technologies-h {
-
-}
-
-.technologies-h-p {
-
-}
 
 .what {
 	width: 1128px;
@@ -273,16 +201,6 @@ p {
 	background-color: #FFFFFF;
 }
 
-.monitor {
-	left: 156px;
-}
-.message {
-	left: 540px;
-}
-
-.phone {
-	left: 924px;
-}
 
 .team {
 	width: 1440px;
@@ -346,54 +264,14 @@ p {
 	color: #434455
 }
 
-.tom {
-
-}
-
-.tom-h {
-
-}
-
-.tom-p {
-
-}
-
-.camila {
-
-}
-
-.camila-h {
-
-}
-
-.camila-p {
-
-}
-
-.daniel {
-
-}
-
-.daniel-h {
-
-}
-
-.daniel-p {
-
-}
-
 .s-link {
 	width: 586px;
 	height: 48px;
 	top: 168px;
 	left: 427px;
 	gap: 24px;
-	
 }
 
-.s-link-u {
-
-}
 
 .btn {
 	height: 48px;
@@ -417,161 +295,8 @@ p {
 }
 
 
-
-
-}
-
-
 .link-image {
 	list-style: none;
-}
-
-
-.banking-app {
-text-decoration: none;
-}
-
-.text {
-	height: 24px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-	line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-	background-color: #2E2F42;
-	color: #2e2f42;
-}
-
-.banking-app-h {
-	width: 290px;
-}
-
-.textP {
-	height: 24px;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #434455;
-}
-
-.banking-app-p {
-	width: 30px;
-
-}
-
-.cashless {
-	text-decoration: none;
-}
-
-.cashless-h {
-	width: 172px;
-
-}
-
-.cashless-p {
-	width: 75px;
-
-}
-
-.meditation {
-	text-decoration: none;
-}
-
-
-.meditation-h {
-	width: 143px;
-
-}
-
-
-.meditation-p {
-	width: 30px;
-
-}
-
-.taxi {
-	text-decoration: none;
-}
-
-
-.taxi-h {
-	width: 113px;
-}
-
-.taxi-p {
-	width: 75px;
-
-}
-
-.screen {
-	text-decoration: none;
-}
-
-
-.screen-h {
-width: 181px;
-
-}
-
-.screen-p {
-	width: 51px;
-
-}
-
-.courses {
-	text-decoration: none;
-}
-
-.courses-h {
-	width: 142px;
-}
-
-
-.courses-p {
-	width: 75px;
-
-}
-
-
-.instagram {
-	text-decoration: none;
-}
-
-.instagram-h {
-	width: 249px;
-}
-
-.instagram-p {
-	width: 51px;
-
-}
-
-.organic {
-	text-decoration: none;
-}
-
-.organic-h {
-	width: 124px;
-}
-
-
-.organic-p {
-	width: 65px;
-
-}
-
-.coffee {
-	text-decoration: none;
-}
-
-.coffee-h {
-	width: 119px;
-}
-
-. coffee-p {
-	width: 65px;
-
 }
 
 
