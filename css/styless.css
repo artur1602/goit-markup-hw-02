@@ -306,12 +306,12 @@ body {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
-.image {
+.image-link {
 	text-decoration: none;
 }
 
 
-.text {
+.text-tansform { 
 	font-weight: 500;
 	line-height: 1.2;
 	font-size: 20px;
@@ -319,7 +319,7 @@ body {
 	color:#2e2f42;
 } 
 
-.textP {
+.text-inform {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
