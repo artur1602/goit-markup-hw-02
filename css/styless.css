@@ -1,3 +1,7 @@
+:root {
+	--color: #434455;
+}
+
 body {
   font-family: Roboto, sans-serif;
 	font-style: normal;
@@ -6,7 +10,7 @@ body {
 	line-height: 24px;
 	letter-spacing: 2%;
 	background-color: #FFFFFF;
-	color: #434455;
+	color: var(--color);
 }
 
 .body-portfolio {
@@ -17,7 +21,7 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	background-color: #F4F4FD;
-	color: #434455;
+	color: var(--color);
 }
 .p {
   color: var(--primary-color);
@@ -85,7 +89,7 @@ body {
 	font-style: normal;
 	letter-spacing: 0.02em;
 	list-style: none;
-	color: #434455;
+	color: var(--color);
 }
 
 .adress {
@@ -97,7 +101,7 @@ body {
 	height: 24px;
 	top: 24px;
 	left: 940px;
-	color: #434455;
+	color: var(--color);
 	text-decoration: none;
 }
 
@@ -273,7 +277,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
-	color: #434455
+	color: var(--color);
 }
 
 .s-list {
@@ -323,7 +327,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color:#434455;
+	color:var(--color);
 }
 
 
