@@ -395,7 +395,7 @@ p {
 
 }
 
-.btn-all, btn-web, btn-app, btn-design {
+btn. {
 	height: 48px;
 	padding: 12px 24px 12px 24px;
 	border-radius: 4px;
@@ -411,82 +411,20 @@ p {
 }
 
 
-.btn-all, btn-web, btn-app, btn-design:hover
-.btn-all, btn-web, btn-app, btn-design:focus {
+.btn:hover
+.btn:focus {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
 
 
-.btn-web, {
-	width: 116px;
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
-	cursor: pointer;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	background-color: #F4F4FD;
-	cursor: pointer;
-	color: #4d5ae5;
-}
 
-.btn-web, btn-app, btn-design {
+.btn {
 	background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
 	linear-gradient(0deg, #E7E9FC, #E7E9FC);
 	border: 1px solid #E7E9FC;	
 }
 
-.btn-app {
-	width: 78px;
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
-	cursor: pointer;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	background-color: #F4F4FD;
-	cursor: pointer;
-	color: #4d5ae5;
-}
-
-.btn-design {
-	width: 101px;
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
-	cursor: pointer;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	background-color: #F4F4FD;
-	cursor: pointer;
-	color: #4d5ae5;
-}
-
-.btn-marketing {
-	width: 126px;
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
-	cursor: pointer;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	background-color: #F4F4FD;
-	cursor: pointer;
-	color: #4d5ae5;
-}
 
 .link-image {
 	list-style: none;
