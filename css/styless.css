@@ -32,13 +32,10 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #2e2f42 ;
+	color: #2e2f42;
 	text-decoration: none;
 }
 
-.logo-n-icon {
-	color: #2e2f42;
-}
 
 .list-nav {
 	list-style: none;
