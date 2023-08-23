@@ -407,30 +407,31 @@ p {
 	letter-spacing: 0.04em;
 	background-color: #F4F4FD;
 	cursor: pointer;
+	color: #4d5ae5;
 }
 
 
 .btn-all, btn-web, btn-app, btn-design:hover
 .btn-all, btn-web, btn-app, btn-design:focus {
 	color: #FFFFFF;
-	background-color: #404bbf;
+	background-color: #404BBF;
 }
 
-
-
-
-.btn-all {
-	width: 116px;
-	background: #404BBF;
-	box-shadow: 0px 2px 2px 0px #0000001F;
-	box-shadow: 0px 2px 1px 0px #00000014;
-	box-shadow: 0px 3px 1px 0px #0000001A;
-	color: #FFFFFF;
-	background-color: #F4F4FD;
-}
 
 .btn-web, {
 	width: 116px;
+	height: 48px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	background-color: #F4F4FD;
+	cursor: pointer;
+	color: #4d5ae5;
 }
 
 .btn-web, btn-app, btn-design {
@@ -441,21 +442,54 @@ p {
 
 .btn-app {
 	width: 78px;
-
+	height: 48px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	background-color: #F4F4FD;
+	cursor: pointer;
+	color: #4d5ae5;
 }
 
 .btn-design {
 	width: 101px;
-
+	height: 48px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	background-color: #F4F4FD;
+	cursor: pointer;
+	color: #4d5ae5;
 }
 
 .btn-marketing {
 	width: 126px;
+	height: 48px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	background-color: #F4F4FD;
+	cursor: pointer;
+	color: #4d5ae5;
 }
 
 .link-image {
 	list-style: none;
-
 }
 
 
