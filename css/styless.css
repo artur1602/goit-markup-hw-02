@@ -318,7 +318,7 @@ p {
 
 }
 
-.mark-h, tom-h, camila-h, daniel-h {
+.name-h {
 	width: 134px;
 	height: 24px;
   font-size: 20px;
@@ -330,7 +330,7 @@ p {
 	line-height: 1.2;
 }
 
-.mark-p, tom-p, camila-p, daniel-p {
+.proffesion {
 	width: 128px;
 	height: 24px;
   font-size: 16px;
