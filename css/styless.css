@@ -85,14 +85,14 @@ body {
 	list-style: none;
 }
 
-.mailto, tel {
+.link {
 	color: #434455;
 	text-decoration: none;
 }
 
 
-.mailto, tel:hover,
-.mailto, tel:focus {
+.link:hover,
+.link:focus {
 	color: #404bbf;
 }
 
