@@ -80,8 +80,8 @@ body {
 	text-decoration: none;
 }
 
-.header-logo:hover,
-.header-logo:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
 	color: #404bbf;
 }
 
