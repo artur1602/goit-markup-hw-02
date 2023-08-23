@@ -304,7 +304,7 @@ p {
 	color: #2e2f42;
 }
 
-.mark, tom, camila, daniel {
+.name {
 	width: 264px;
 	height: 380px;
 	top: 1780px;
@@ -316,7 +316,7 @@ p {
 	box-shadow: 0px 2px 1px 0px #2E2F4214;
 	box-shadow: 0px 1px 1px 0px #2E2F4229;
 	box-shadow: 0px 1px 6px 0px #2E2F4214;
-
+	background-color: #FFFFFF;
 }
 
 .name-h {
