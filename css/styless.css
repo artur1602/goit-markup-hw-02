@@ -76,12 +76,12 @@ body {
 .adress {
 	font-style: normal;
 	letter-spacing: 0.02em;
-	color: #434455;
 	list-style: none;
 }
 
 .adress {
 	list-style: none;
+	color: #434455;
 }
 
 .mailto, tel {
