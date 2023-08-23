@@ -170,14 +170,12 @@ body {
 	line-height: 1.2; 
 	letter-spacing: 0.02em;
 	font-weight: 500;
-}
-.strategy, punctuality, diligence, technologies {
-	width: 264px;
-	height: 104px;
-	top: 792px;
-	gap: 8px;
+	color: #2e2f42;
 }
 
+.descriptions-p {
+	letter-spacing: 0.02em;
+}
 
 .what {
 	width: 1128px;
