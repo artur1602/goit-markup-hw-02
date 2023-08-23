@@ -89,7 +89,7 @@ body {
 	font-style: normal;
 	letter-spacing: 0.02em;
 	list-style: none;
-	color: var(--color);
+	color: #434455;
 }
 
 .adress {
@@ -101,7 +101,7 @@ body {
 	height: 24px;
 	top: 24px;
 	left: 940px;
-	color: var(--color);
+	color: #434455;
 	text-decoration: none;
 }
 
