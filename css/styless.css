@@ -157,7 +157,7 @@ p {
 .order-service:hover
 .order-service:focus {
 	outline-offset: 10px;
-	background-color: #404BBF;
+	background-color: #4D5AE5 ;
 }
 
 
@@ -185,8 +185,8 @@ p {
 }
 
 .strategy-h, punctuality-h, diligence-h, technologies-h {
-	width: 264px
-	height: 24px
+	width: 264px;
+	height: 24px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -200,8 +200,8 @@ p {
 	width: 264px;
 	height: 72px;
 	letter-spacing: 0.02em;
-	font-size: 20px;
-	line-height: 1.2; 
+	font-size: 16px;
+	line-height: 1.5;	
 }
 
 .punctuality {
