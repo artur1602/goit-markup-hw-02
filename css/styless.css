@@ -306,7 +306,9 @@ body {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
-
+.image {
+	text-decoration: none;
+}
 
 
 .text {
