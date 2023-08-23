@@ -169,6 +169,7 @@ body {
 	font-size: 20px;
 	line-height: 1.2; 
 	letter-spacing: 0.02em;
+	font-weight: 500;
 }
 .strategy, punctuality, diligence, technologies {
 	width: 264px;
