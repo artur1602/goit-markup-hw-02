@@ -135,7 +135,7 @@ p {
 	
 }
 
-.order-service {
+.order {
 	width: 169px;
 	height: 56p;
 	top: 428px;
@@ -154,10 +154,9 @@ p {
 	cursor: pointer;
 }
 
-.order-service:hover
-.order-service:focus {
-	outline-offset: 10px;
-	background-color: #4D5AE5 ;
+.order:hover
+.order:focus {
+	background-color: #404BBF;
 }
 
 
