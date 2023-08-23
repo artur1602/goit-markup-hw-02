@@ -37,21 +37,11 @@ body {
 }
 
 .logo-n-icon {
-	color: #4d5ae5;
+	color: #2e2f42;
 }
 
 .list-nav {
 	list-style: none;
-}
-
-
-.header-nav {
-	font-weight: 500;
-	letter-spacing: 0.02em;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #2e2f42;
-	text-decoration: none;
 }
 
 .header-nav-link {
