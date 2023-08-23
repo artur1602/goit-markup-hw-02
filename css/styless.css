@@ -413,7 +413,7 @@ p {
 .btn-all, btn-web, btn-app, btn-design:hover
 .btn-all, btn-web, btn-app, btn-design:focus {
 	color: #FFFFFF;
-	background-color: #404BBF;
+	background-color: #404bbf;
 }
 
 
@@ -425,7 +425,8 @@ p {
 	box-shadow: 0px 2px 2px 0px #0000001F;
 	box-shadow: 0px 2px 1px 0px #00000014;
 	box-shadow: 0px 3px 1px 0px #0000001A;
-	background: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #F4F4FD;
 }
 
 .btn-web, {
