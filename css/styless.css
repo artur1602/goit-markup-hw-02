@@ -72,8 +72,8 @@ body {
 	letter-spacing: 0.02em;
 	font-size: 16px;
 	line-height: 1.5;
+	color:#2e2f42;
 	text-decoration: none;
-	color: #434455;
 }
 
 .header-nav-link:hover
@@ -106,7 +106,7 @@ body {
 	left: 1133px;
 }
 
-.mailto, tel:hover
+.mailto, tel:hover,
 .mailto, tel:focus {
 	color: #404bbf;
 }
@@ -150,7 +150,7 @@ body {
 	cursor: pointer;
 }
 
-.order:hover
+.order:hover,
 .order:focus {
 	background-color: #404BBF;
 }
