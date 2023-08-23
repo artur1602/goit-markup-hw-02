@@ -233,6 +233,10 @@ body {
 	color: #2e2f42;
 }
 
+.team-list {
+
+}
+
 .name {
 	width: 264px;
 	height: 380px;
@@ -307,6 +311,17 @@ body {
 	list-style: none;
 }
 
+.structure-list {
+
+}
+
+.structure-item {
+
+}
+
+.structure-link{
+
+}
 
 .text {
 	font-weight: 500;
