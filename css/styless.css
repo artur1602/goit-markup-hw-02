@@ -1,6 +1,9 @@
 :root {
 	--color: #434455;
 	--color-ae5: #4d5ae5;
+	--color-fff: #FFFFFF;
+	--color-f42: #2e2f42;
+
 }
 
 body {
@@ -39,7 +42,7 @@ body {
 }
 
 .logo-n-icon {
-	color: #2e2f42;
+	color: var(--color-f42);
 }
 
 .list-nav {
@@ -72,7 +75,7 @@ body {
 	font-style: normal;
 	letter-spacing: 0.02em;
 	list-style: none;
-	color: #434455;
+	color: var(--color-ico);
 }
 
 .adress {
@@ -80,7 +83,7 @@ body {
 }
 
 .link {
-	color: #434455;
+	color: var(--color-ico);
 	text-decoration: none;
 }
 
@@ -95,7 +98,7 @@ body {
 }
 
 .effective {
-	color: #FFFFFF;
+	color: var(--color-fff);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -130,7 +133,7 @@ body {
 	line-height: 1.2; 
 	letter-spacing: 0.02em;
 	font-weight: 500;
-	color: #2e2f42;
+	color: var(--color-f42);
 }
 
 .descriptions-p {
@@ -148,8 +151,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 	line-height: 1.11;
-	text-transform: capitalize;
-	color: #2e2f42;
+	text-trnsform: capitalize;
+	color: var(--color-f42);
 }
 
 .monitor, message, phone {
@@ -168,10 +171,10 @@ body {
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
-	background: #2E2F42;
+	background: #2e2f42;
 	line-height: 1.11;
 	text-transform: capitalize;
-	color: #2e2f42;
+	color: var(--color-f42);
 }
 
 .team-list {
@@ -188,9 +191,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
-	background: #2E2F42;
+	background: #2e2f42;
 	line-height: 1.2;
-	color: #2e2f42;
+	color: var(--color-f42);
 }
 
 .proffesion {
@@ -211,12 +214,12 @@ body {
 	letter-spacing: 0.04em;
 	background-color: #F4F4FD;
 	cursor: pointer;
-	color: #4d5ae5;
+	color: var(--color-ae5);
 }
 
 .btn:hover,
 .btn:focus {
-	color: #FFFFFF;
+	color: var(--color-fff);
 	background-color: #404BBF;
 }
 .image-link {
@@ -229,7 +232,7 @@ body {
 	line-height: 1.2;
 	font-size: 20px;
 	letter-spacing: 0.02em;
-	color:#2e2f42;
+	color: var(--color-f42);
 } 
 
 .text-inform {
@@ -252,7 +255,7 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4d5ae5;
+	color: var(--color-ae5);
 
 	text-decoration: none;
 }
