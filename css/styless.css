@@ -24,10 +24,49 @@ body {
 	color: var(--color);
 }
 
+.header {
+	color: #4d5ae5;
+}
+
+.header-nav {
+	color: #4d5ae5;
+}
+
+.header-logo link {
+	color: #4d5ae5;
+} 
+
+.header-logo {
+	color: #4d5ae5;
+}
+
+.header-nav-list {
+	color: #4d5ae5;
+}
+
+.header-nav-list list {
+	color: #4d5ae5;
+}
+
+.header-nav-item {
+	color: #4d5ae5;
+}
+
+.header-nav-link {
+	color: #4d5ae5;
+} 
+
+.header-nav-link link {
+	color: #4d5ae5;
+}
+
+
+
 
 .header-logo {
 	font-family: Raleway, sans-serif;
 	font-weight: 800;
+	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
