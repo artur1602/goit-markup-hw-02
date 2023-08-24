@@ -25,39 +25,39 @@ body {
 }
 
 .header {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-nav {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-logo link {
-	color: #2e2f42;
+	color: curentColor;
 } 
 
 .header-logo {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-nav-list {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-nav-list list {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-nav-item {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 .header-nav-link {
-	color: #2e2f42;
+	color: curentColor;
 } 
 
 .header-nav-link link {
-	color: #2e2f42;
+	color: curentColor;
 }
 
 
