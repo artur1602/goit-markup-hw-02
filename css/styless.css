@@ -51,6 +51,10 @@ body {
 	color: var(--color-ae5);
 }
 
+.header-logo:hover,
+.header-logo:focus {
+	color: var(--color-bbf);
+}
 .logo-n-icon {
 	color: var(--color-f42);
 }
@@ -93,15 +97,11 @@ body {
 }
 
 .link {
-	color: var(--color-ico);
 	text-decoration: none;
 }
 
 
-.link:hover,
-.link:focus {
-	color: #404bbf;
-}
+
 
 .hero-images {
 	background-color: #2e2f42;
