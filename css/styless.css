@@ -78,6 +78,7 @@ body {
 	font-size: var(--fs);
 	line-height: var(--lh);
   text-decoration: none;
+	color: var(--color-f42);
 }
 
 .header-nav-link:hover,
