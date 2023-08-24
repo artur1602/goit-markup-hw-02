@@ -103,7 +103,7 @@ body {
   text-align: center;
 }
 
-.order {
+.order-service {
 	background-color: #4D5AE5;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -114,8 +114,8 @@ body {
 	cursor: pointer;
 }
 
-.order:hover,
-.order:focus {
+.order-service:hover,
+.order-service:focus {
 	background-color: #404BBF;
 }
 
