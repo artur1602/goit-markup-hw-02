@@ -1,5 +1,6 @@
 :root {
 	--color: #434455;
+	--color-ae5: #4d5ae5;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #4d5ae5;
+	color: var(--color-ae5);
 }
 
 .logo-n-icon {
