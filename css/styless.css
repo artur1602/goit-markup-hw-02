@@ -24,44 +24,7 @@ body {
 	color: var(--color);
 }
 
-.header {
-	color: inherit;
-}
-
-.header-nav {
-	color: inherit;
-}
-
-.header-logo link {
-	color: inherit;
-} 
-
-.header-logo {
-	color: inherit;
-}
-
-.header-nav-list {
-	color: inherit;
-}
-
-.header-nav-list list {
-	color: inherit;
-}
-
-.header-nav-item {
-	color: inherit;
-}
-
-.header-nav-link {
-	color: inherit;
-} 
-
-.header-nav-link link {
-	color: inherit;
-}
-
-
-
+color: inherit;
 
 .header-logo {
 	font-family: Raleway, sans-serif;
@@ -80,6 +43,7 @@ body {
 
 .list-nav {
 	list-style: none;
+	color: inherit;
 }
 
 
@@ -89,6 +53,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;	
 	text-decoration: none;
+	color: inherit;
 }
 
 .header-nav-link {
@@ -97,6 +62,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
   text-decoration: none;
+	color: inherit;
 }
 
 .header-nav-link:hover,
