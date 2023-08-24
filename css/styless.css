@@ -151,7 +151,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 	line-height: 1.11;
-	text-trnsform: capitalize;
+	text-transform: capitalize;
 	color: var(--color-f42);
 }
 
