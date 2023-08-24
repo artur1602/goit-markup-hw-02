@@ -1,7 +1,9 @@
 :root {
 	--color: #434455;
 	--color-logo: #4d5ae5;
-	--color-icon: #2E2F42;
+	--color-icon: #2e2f42;
+	--color-bbf: #404bbf;
+}
 }
 
 body {
@@ -54,14 +56,14 @@ body {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-	color: #404bbf;
+	color: var(--color-bbf);
 }
 
 .adress {
 	font-style: normal;
 	letter-spacing: 0.02em;
 	list-style: none;
-	color: #434455;
+	color: var(--color);
 }
 
 .adress {
@@ -69,18 +71,18 @@ body {
 }
 
 .link {
-	color: #434455;
+	color: var(--color);
 	text-decoration: none;
 }
 
 
 .link:hover,
 .link:focus {
-	color: #404bbf;
+	color: var(--color);
 }
 
 .hero-images {
-	background-color: var(--color-icon);
+	background-color: #2E2F42;
 }
 
 .effective {
@@ -157,10 +159,10 @@ body {
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
-	background: var(--color-icon);
+	background: #2e2f42;
 	line-height: 1.11;
 	text-transform: capitalize;
-	color: #2e2f42;
+	color: var(--color-icon);
 }
 
 .team-list {
@@ -177,7 +179,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
-	background: var(--color-icon);
+	background: #2e2f42;
 	line-height: 1.2;
 	color: var(--color-icon);
 }
@@ -200,7 +202,7 @@ body {
 	letter-spacing: 0.04em;
 	background-color: #F4F4FD;
 	cursor: pointer;
-	color: #4d5ae5;
+	color: var(--color-logo);
 }
 
 .btn:hover,
@@ -241,7 +243,7 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4d5ae5;
+	color: var(--color-logo);;
 
 	text-decoration: none;
 }
