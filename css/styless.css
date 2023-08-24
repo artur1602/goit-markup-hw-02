@@ -101,8 +101,14 @@ body {
 	text-decoration: none;
 }
 
+.address-link  {
+	color: var(--color);
+}
 
-
+.address-link:hover,
+.address-link:focus {
+	color: var(--color-bbf);
+}
 
 .hero-images {
 	background-color: #2e2f42;
