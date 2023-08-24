@@ -25,39 +25,39 @@ body {
 }
 
 .header {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-nav {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-logo link {
-	color: curentColor;
+	color: inherit;
 } 
 
 .header-logo {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-nav-list {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-nav-list list {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-nav-item {
-	color: curentColor;
+	color: inherit;
 }
 
 .header-nav-link {
-	color: curentColor;
+	color: inherit;
 } 
 
 .header-nav-link link {
-	color: curentColor;
+	color: inherit;
 }
 
 
