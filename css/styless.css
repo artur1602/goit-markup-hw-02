@@ -78,7 +78,7 @@ body {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-	color: var(--color-bbf);
+	color: #404bbf;
 }
 
 .adress {
@@ -100,11 +100,11 @@ body {
 
 .link:hover,
 .link:focus {
-	color: var(--background-bbf);
+	color: #404bbf;
 }
 
 .hero-images {
-	background-color: var(--background-color-f42f)
+	background-color: #2e2f42;
 }
 
 .effective {
@@ -254,7 +254,7 @@ body {
 
 
 .foot {
-	background-color: var(--background-color-f42f)
+	background-color: var(--background-color-f42)
 }
 
 .logo-f {
